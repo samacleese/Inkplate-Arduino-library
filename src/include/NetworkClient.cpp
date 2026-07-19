@@ -113,7 +113,7 @@ bool InkplateNetworkClient::connectWiFi(const char *ssid, const char *pass, int 
  * @return      True if successful, false if failed
  */
 bool InkplateNetworkClient::connectWiFiMulti(int numNetworks, const char **ssids, const char **passwords, int timeout,
-                                     bool printToSerial)
+                                             bool printToSerial)
 {
     // Create the WiFiMulti object
     WiFiMulti wifiMulti;
@@ -208,7 +208,8 @@ bool InkplateNetworkClient::isConnected()
  *
  * @return      True if successful, false if failed
  */
-bool InkplateNetworkClient::getNTPEpoch(time_t *timeEpoch, int timeZone, char *ntpServer, int daylightSavingsOffsetHours)
+bool InkplateNetworkClient::getNTPEpoch(time_t *timeEpoch, int timeZone, char *ntpServer,
+                                        int daylightSavingsOffsetHours)
 {
     // If WiFi is not connected, we can't get the epoch
     if (!isConnected())
