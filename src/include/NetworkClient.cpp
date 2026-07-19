@@ -16,7 +16,7 @@
  * @authors     @ Soldered
  ***************************************************/
 
-#include "InkplateNetworkClient.h"
+#include "NetworkClient.h"
 
 /**
  * @brief       Connects Inkplate to a provided WiFi network.

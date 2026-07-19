@@ -25,7 +25,7 @@
 #include "time.h"
 
 #include "Esp.h"
-#include "InkplateNetworkClient.h"
+#include "NetworkClient.h"
 
 #define I2C_ADDR 0x51
 

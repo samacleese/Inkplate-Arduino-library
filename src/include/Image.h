@@ -23,7 +23,7 @@
 #include "../libs/SdFat/SdFat.h"
 #include "Arduino.h"
 #include "ImageDitherColorKernels.h"
-#include "InkplateNetworkClient.h"
+#include "NetworkClient.h"
 #include "defines.h"
 
 /**
