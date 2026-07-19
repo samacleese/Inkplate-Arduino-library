@@ -25,7 +25,7 @@
 #include "time.h"
 
 #include "Esp.h"
-#include "NetworkClient.h"
+#include "InkplateNetworkClient.h"
 
 #define I2C_ADDR 0x51
 
@@ -122,7 +122,7 @@ class System : public Esp,
                public Buzzer,
 #endif
 
-               virtual public NetworkClient
+               virtual public InkplateNetworkClient
 
 {
   public:
